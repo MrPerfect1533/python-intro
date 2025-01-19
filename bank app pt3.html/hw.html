@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheezious Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8b400;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .menu-item {
+            margin: 15px;
+            display: inline-block;
+        }
+        .menu-item img {
+            border: 2px solid #f8b400;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cheezious Restaurant</h1>
+    </header>
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="about" class="container">
+        <h2>About Us</h2>
+        <p>Cheezious is the ultimate destination for cheese lovers! Come and enjoy a wide variety of cheesy delights made fresh just for you.</p>
+        <img src="about-cheezious.jpg" alt="Cheezious Restaurant interior">
+    </div>
+
+    <div id="menu" class="container">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="pizza.jpg" alt="Cheese Pizza">
+            <p>Cheese Pizza</p>
+        </div>
+        <div class="menu-item">
+            <img src="burger.jpg" alt="Cheese Burger">
+            <p>Cheese Burger</p>
+        </div>
+        <div class="menu-item">
+            <img src="pasta.jpg" alt="Cheese Pasta">
+            <p>Cheese Pasta</p>
+        </div>
+    </div>
+
+    <div id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>Email: info@cheezious.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Cheesy Lane, Foodie City</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Cheezious Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
